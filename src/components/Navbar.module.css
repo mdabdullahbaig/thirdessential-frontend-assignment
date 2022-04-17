@@ -1,0 +1,28 @@
+.navDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: #696969;
+  background: lightblue;
+}
+
+.brand {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #696969;
+  transition: all 1ms;
+}
+
+.links a:hover {
+  color: #979797;
+}
